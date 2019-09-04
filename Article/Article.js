@@ -131,7 +131,7 @@ function articleMaker({
   thirdParagraph
 }) {
   let div = document.createElement("div");
-  div.setAttribute("class", "article article-open");
+  div.setAttribute("class", "article");
 
   const h2 = document.createElement("h2");
   const p1 = document.createElement("p");
