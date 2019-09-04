@@ -45,7 +45,7 @@ function menuMaker() {
   }
 
   div1.setAttribute("class", "menu");
-  // span.textContent = "toggle";
+  
   const menuButton = document.querySelector(".menu-button");
 
   menuButton.addEventListener("click", e => {
@@ -57,13 +57,7 @@ function menuMaker() {
   return div1;
 }
 
-// const articles1 = menuItems.map(menuMaker);
 const Menu = menuMaker();
 const articlesDiv = document.querySelector(".articles");
 articlesDiv.insertAdjacentElement("afterend", Menu);
 
-// const menuContainer = document.querySelector("body");
-
-// articles1.forEach(element => {
-//   menuContainer.appendChild(element);
-// });
